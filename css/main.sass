@@ -9,16 +9,15 @@
 /* ==========================================================================
  * Base styles: opinionated defaults
  * ==========================================================================
+  /*  ARCHIVOS SASS*/
+@import navegacion
+@import productos
+@import sobre-nosotros
+@import contacto
 
 
-html
-  color: #222
-  font-size: 1em
-  line-height: 1.4
-  box-sizing: border-box
-  font-size: 62.5% // Reset para Rems - 62.5%  = 10px de 16px */
 
-
+h
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -69,17 +68,19 @@ textarea
  * Author's custom styles
  * ==========================================================================
 
-body
 
+/*   GLOBALES   */
+.contenedor
+    max-width: 120rem
+    width: 90%
+    margin: 0 auto
+    margin: 5rem 0rem
+
+
+body
 *, *:before, *:after 
   box-sizing: inherit
 
-
-  /*  ARCHIVOS SASS*/
-@import navegacion
-@import productos
-@import sobre-nosotros
-@import contacto
 
 
 /* ==========================================================================

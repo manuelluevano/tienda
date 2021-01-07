@@ -5,13 +5,25 @@
  * Kroc Camen, and the H5BP dev community and team. */
 /* ==========================================================================
  * Base styles: opinionated defaults
- * ========================================================================== */
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
-  box-sizing: border-box;
-  font-size: 62.5%; }
+ * ==========================================================================
+ *  /*  ARCHIVOS SASS */
+nav {
+  background-color: #E35F20; }
+  nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); }
+    nav ul li {
+      list-style: none;
+      padding: 1rem 0;
+      transition: all 0.5s ease; }
+      nav ul li a {
+        text-decoration: none;
+        color: #ffffff; }
+    nav ul li:hover {
+      background-color: #000000; }
 
 /* Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -52,9 +64,15 @@ textarea {
 /* ==========================================================================
  * Author's custom styles
  * ========================================================================== */
+/*   GLOBALES   */
+.contenedor {
+  max-width: 120rem;
+  width: 90%;
+  margin: 0 auto;
+  margin: 5rem 0rem; }
+
 *, *:before, *:after {
-  box-sizing: inherit;
-  /*  ARCHIVOS SASS */ }
+  box-sizing: inherit; }
 
 /* ==========================================================================
  * Helper classes
