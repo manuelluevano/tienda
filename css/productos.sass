@@ -2,7 +2,12 @@
     .lista-productos
         display: grid
         grid-template-columns: repeat(4, 1fr)
-        text-align: center
-    .producto
-        li
-            list-style: none
+        gap: 4rem 1.5rem
+        .producto
+            text-align: center
+            li
+                list-style: none
+            .botones
+                display: grid
+                grid-template-columns: repeat(2, 1fr)
+                gap: 0 .5rem
