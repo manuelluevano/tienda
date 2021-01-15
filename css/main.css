@@ -10,7 +10,19 @@
 header {
   background-color: black; }
   header .banner {
-    padding: 1rem 0; }
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: end; }
+  header .banner .login {
+    font-size: 1.8rem;
+    align-self: center;
+    display: grid; }
+  header .login span {
+    color: #ffffff;
+    font-size: 0.7rem; }
+  header div.login a i {
+    color: #ffffff; }
 
 nav {
   background-color: #E35F20; }
@@ -93,6 +105,10 @@ h1, h2, h3, h4, h5 {
 
 h1, h2 {
   margin: 4rem 0; }
+
+a {
+  padding: 0;
+  margin: 0; }
 
 .contenedor {
   max-width: 100rem;
