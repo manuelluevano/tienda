@@ -52,9 +52,12 @@ nav {
     position: relative; }
     nav .search i {
       position: absolute;
-      top: 0.5rem;
-      right: 5px;
-      padding: 0.74rem; }
+      top: 0.53rem;
+      right: 8px;
+      padding: 0.939rem;
+      transition: 0.3s;
+      background-color: #aaa;
+      border-radius: 0px 4px 4px 0px; }
     nav .search span i:hover {
       cursor: pointer;
       color: #ffffff;
@@ -64,7 +67,7 @@ nav {
       border-radius: 4px;
       margin: 8px 0;
       outline: none;
-      padding: 8px;
+      padding: 0.73rem;
       box-sizing: border-box;
       transition: 0.3s;
       width: 70%;
