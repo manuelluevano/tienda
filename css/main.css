@@ -17,7 +17,9 @@ header {
   header .banner .login {
     font-size: 1.8rem;
     align-self: center;
-    display: grid; }
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0 2rem; }
   header .login span {
     color: #ffffff;
     font-size: 0.7rem; }
