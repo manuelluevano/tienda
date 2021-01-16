@@ -38,7 +38,8 @@ nav {
       list-style: none;
       text-align: center;
       padding: 0.8rem 0;
-      transition: all 0.5s ease; }
+      transition: all 0.5s ease;
+      font-size: 1.3rem; }
       nav ul li a {
         text-decoration: none;
         color: #ffffff; }
@@ -50,11 +51,11 @@ nav {
     align-self: center;
     text-align: right;
     position: relative; }
-    nav .search i {
+    nav .search span i {
       position: absolute;
-      top: 0.53rem;
-      right: 8px;
-      padding: 0.939rem;
+      top: 0.55rem;
+      right: 34px;
+      padding: 0.927rem;
       transition: 0.3s;
       background-color: #aaa;
       border-radius: 0px 4px 4px 0px; }
@@ -71,7 +72,7 @@ nav {
       box-sizing: border-box;
       transition: 0.3s;
       width: 70%;
-      margin-right: 0.5rem; }
+      margin-right: 5rem; }
     nav .search input[type=text]:focus {
       border-color: dodgerBlue;
       box-shadow: 0 0 8px 0 dodgerBlue; }
@@ -131,6 +132,9 @@ textarea {
 /*   GLOBALES   */
 ul {
   padding: 0; }
+
+li {
+  font-family: "Roboto", sans-serif; }
 
 h1, h2, h3, h4, h5 {
   text-align: center; }
