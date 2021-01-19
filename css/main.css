@@ -41,7 +41,7 @@ nav {
       text-align: center;
       padding: 0.8rem 0;
       transition: all 0.5s ease;
-      font-size: 1.3rem; }
+      font-size: 1.5rem; }
       nav ul li a {
         text-decoration: none;
         color: #ffffff; }
@@ -142,11 +142,17 @@ h1, h2, h3, h4, h5 {
   text-align: center; }
 
 h1, h2 {
-  margin: 4rem 0; }
+  margin: 4rem 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 2.7rem; }
 
 a {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300; }
 
 .contenedor {
   max-width: 100rem;
